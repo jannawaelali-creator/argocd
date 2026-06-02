@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: keep-argo-happy
+  namespace: my-app-namespace
+data:
+  hint: "Prevents empty directory sync error"
